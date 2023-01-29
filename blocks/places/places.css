@@ -2,23 +2,15 @@
     max-width: calc(100% - 148px * 2);
     margin: 0 148px;
     padding-top: 92px;
-    display: grid;
-    grid-template-columns: 460px 1fr;
-    gap: 48px 40px;
     padding-bottom: 92px;
 
 }
-
-
 
 @media screen and (max-width: 1024px) {
     .places {
         max-width: calc(100% - 48px * 2);
         margin: 0 48px;
-        padding-top: 92px;
-        display: grid;
-        grid-template-columns: 440px 1fr;
-        gap: 48px 32px;
+        padding-top: 90px;
     }
 }
 
@@ -27,9 +19,6 @@
         max-width: calc(100% - 24px * 2);
         margin: 0 24px;
         padding-top: 88px;
-        display: grid;
-        grid-template-columns: 340px 1fr;
-        gap: 48px 28px;
     }
 }
 
@@ -38,8 +27,6 @@
         max-width: calc(100% - 16px * 2);
         margin: 0 16px;
         padding-top: 64px;
-        padding-bottom: 41px;
-        grid-template-columns: 1fr;
-        gap: 25px;
+        padding-bottom: 66px;
     }
 }
