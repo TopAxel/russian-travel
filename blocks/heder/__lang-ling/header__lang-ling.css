@@ -1,0 +1,53 @@
+.header__lang-ling {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #FFFFFF;
+  margin-right: 18px;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+
+.header__lang-ling:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: #FFFFFF;
+  transition: width 0.4s ease-in-out;
+}
+
+.header__lang-ling:hover:after,
+.link a:focus:after {
+  width: 100%;
+}
+
+.header__lang-ling:hover {
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.header__lang-ling:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-ling {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.16;
+    padding-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__lang-ling {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 0.9;
+    padding-bottom: 8px;
+  }
+}

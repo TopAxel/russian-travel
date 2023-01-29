@@ -1,0 +1,39 @@
+.header {
+  max-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding-top: 28px;
+  max-width: calc(100% - 48px * 2);
+
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    min-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-height: 52px;
+    padding-top: 28px;
+    max-width: calc(100% - 24px * 2);
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    max-height: 42px;
+    padding-top: 16px;
+    max-width: calc(100% - 16px * 2);
+  }
+}
