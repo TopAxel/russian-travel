@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 500px) {
     .cover__subtitle {
-        width: calc(100% - 16px * 2);
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
