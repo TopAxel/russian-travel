@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
     .cover__title {
         width: calc(100% - 16px * 2);
         max-width: 560px;
