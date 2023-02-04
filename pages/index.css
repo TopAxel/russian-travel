@@ -42,8 +42,7 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__author/footer__author.css);
-/* page__container */
+/* conteiner*/
 @import url(../blocks/page/__container/page__container.css);

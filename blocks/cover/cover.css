@@ -2,33 +2,45 @@
     background-image: url(../../image/cover/__background.png);
     position: relative;
     width: 100%;
-    min-width: 740px;
+    min-height: 640px;
     background-size: cover;
     background-position: center center;
-    max-width: calc(100% - 48px * 2);
-    margin: 0 48px;
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .cover {
-        min-width: 1024px;
-        max-height: 640px;
-        margin: 0;
+        max-width: calc(100% - 48px * 2);
+        margin: 0 48px;
+        min-height: 740px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .cover {
-        min-width: 768px;
-        max-height: 480px;
+        min-height: 560px;
     }
 }
 
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 800px) {
     .cover {
-        min-width: 320px;
-        max-height: 200px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cover {
+        min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cover {
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cover {
+        min-height: 200px;
     }
 }
