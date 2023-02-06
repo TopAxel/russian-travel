@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 320px) {
   .place__image {
+    height: 320px;
     transform: scale(1.1111, 1);
   }
 }

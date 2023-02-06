@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.63;
   margin: 0;
   margin-bottom: 26px;
 }
@@ -10,31 +10,14 @@
 @media screen and (max-width: 1024px) {
   .place__paragraph {
     margin-bottom: 27px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.6;
   }
   
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 25px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .place__paragraph {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
   }
 }
 
