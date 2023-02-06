@@ -1,0 +1,26 @@
+.header__lang-ling {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #FFFFFF;
+  margin-right: 18px;
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+
+.header__lang-ling:hover {
+  opacity: 0.8;
+}
+
+.header__lang-ling:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-ling {
+    font-size: 18px;
+    line-height: 0.9;
+    padding-bottom: 8px;
+  }
+}

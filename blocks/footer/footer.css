@@ -20,15 +20,11 @@
 @media screen and (max-width:730px) {
     .footer {
         flex-direction: column;
-        padding-top: 64px;
-        max-width: calc(100% - 16px * 2);
-        margin: 0 16px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .footer {
-        flex-direction: column;
         padding-top: 64px;
         max-width: calc(100% - 16px * 2);
         margin: 0 16px;
